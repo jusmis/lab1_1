@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Money {
 
-    BigDecimal value;
+    private BigDecimal value;
     private String currency;
 
     public Money(BigDecimal value, String currency) {
